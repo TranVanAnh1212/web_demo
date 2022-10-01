@@ -1,0 +1,349 @@
+
+.head {
+    
+}
+
+.heading {
+    width: 100%;
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2.4rem;
+}
+
+.heading__logo {
+    height: 100%;
+    font-weight: 550;
+    padding: 16px 20px;
+    color: var(--logo-color);
+    text-decoration: none;
+}
+
+.heading__logo:hover {
+    background-color: var(--logo-color);
+    color: var(--while-color);
+}
+
+.heading__logo-icon {
+    font-size: 2.2rem;
+    padding-right: 12px;
+}
+
+.heading__search {
+    height: 100%;
+    margin: 0 20px;
+    padding: 14px;
+    color: #eee;
+    /* background: linear-gradient(to bottom right, #B1227A, #429AEE); */
+    color: #333;
+    border-radius: 3px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.heading__search .heading__search-input, .heading__search-btn {
+    color: inherit;
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+
+.heading__search-input {
+    border: 1px solid #ccc;
+    font-size: 1.4rem;
+    padding: 5px 5px;
+    width: 0;
+    transition: width 0.5s;
+
+}
+
+.heading__search-btn {
+    padding: 8px 8px;
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+}
+
+.heading__search-btn i {
+    font-size: 2.2rem;
+    color: rgb(117, 117, 117);
+}
+
+.heading__search:focus-within .heading__search-input {
+    width: 200px;
+
+}
+
+::placeholder{
+    color: inherit;
+}
+
+/* ======= container ============== */
+
+.container {
+    background-color: #f1f1f1;
+}
+
+.travel__order {
+    position: relative;
+}
+
+.travel__order-img {
+    width: 100%;
+    border: 1px solid #ccc;
+}
+
+.travel__order-card {
+    width: 950px;
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--while-color);
+}
+
+.travel__order-card-header {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    font-size: 1.6rem;
+    background-color: #000;
+}
+
+.card-header-icon  {
+    font-size: 1.4rem;
+    display: block;
+    margin-right: 10px;
+}
+
+.card-header {
+    color: #eee;
+    display: block;
+    padding: 12px 16px;
+    text-decoration: none;
+}
+
+.card-header:hover {
+    color: #333;
+    background-color: #abaaaa;
+}
+
+.card-header-active {
+    background-color: var(--logo-color);
+}
+
+.travel__order-card-body {
+    padding: 18px;
+}
+
+.travel__order-card-body h2 {
+    font-weight: 400;
+    font-size: 2rem;
+    padding: 16px 0;
+}
+
+.card-body-input {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-body-from-to {
+    display: flex;
+    flex-direction: column;
+    width: 49%;
+}
+
+.card-body-from-to label {
+    font-size: 1.7rem;
+    padding-top: 12px;
+}
+
+.card-body-from-to input {
+    margin-top: 5px;
+    height: 40px;
+    font-size: 1.5rem;
+    color: #787878;
+    padding: 0 10px;
+    outline: none;
+    border: 1px solid #d9d9d9;
+}
+
+.search-and-find-btn {
+    width: 180px;
+    height: 40px;
+    margin: 16px 0;
+    border: none;
+    color: var(--while-color);
+    background-color: #616161;
+}
+
+.search-and-find-btn:hover {
+    color: #333;
+    background-color: #ccc;
+}
+
+/* ============================ */
+
+.body__images-sale {
+
+}
+
+.images-sale-heading {
+    font-size: 2.2rem;
+    font-weight: 500;
+    padding: 25px 0;
+}
+
+.images-sale-paragraph {
+    padding: 10px 0;
+    font-size: 1.6rem;
+}
+
+.images-sale-image {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.images-sale-image-column {
+    display: block;
+    position: relative;
+    width: 50%;
+}
+
+.cinque-terre-img {
+    height: 400px;
+}
+
+.four-img {
+    margin: 0;
+    width: 50%;
+    display: flex;
+    height: 200px;
+}
+
+.images-sale-image-column p {
+    position: absolute;
+    bottom: 0;
+    color: var(--while-color);
+    left: 0;
+    font-size: 2rem;
+    margin: 14px 18px;
+}
+
+/* ======= Explore Nature ============ */
+
+.explore-nature {
+
+}
+
+.explore-nature__heading {
+    font-size: 2.2rem;
+    margin: 30px 0;
+    font-weight: 500;
+}
+
+.explore-nature__heading-sub {
+    font-size: 1.6rem;
+
+}
+
+.explore-nature__body {
+    display: flex;
+    width: 100%;
+}
+
+.explore-nature__ticket {
+    margin: 0 0 10px 15px;
+    background-color: var(--while-color);
+    width: 526px;
+}
+
+.explore-ticket-images {
+    width: 100%;
+}
+
+.explore-ticket {
+    padding: 20px;
+}
+
+.explore-ticket--heading {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 29px;
+}
+
+.explore-ticket-price {
+    color: #a4a4a4;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.explore-nature__ticket p {
+    font-size: 1.4rem;
+    padding: 24px 0;
+}
+
+.buy-ticket-btn {
+    cursor: pointer;
+    border: none;
+    font-size: 1.4rem;
+    padding: 10px 12px;
+    background-color: transparent;
+}
+
+.buy-ticket-btn:hover {
+    background-color: #ccc;
+}
+
+/* ============ Subscribe ============ */
+
+.Subscribe {
+    background-color: rgb(33, 33, 33);
+    color: var(--while-color);
+    padding: 14px;
+}
+
+.Subscribe__heading {
+    font-size: 2.2rem;
+    font-weight: 500;
+    margin: 30px 0;
+}
+
+.Subscribe__nav {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+
+.Subscribe__email-label {
+    font-size: 1.6rem;
+}
+
+.Subscribe__email-input {
+    width: 100%;
+    display: block;
+    font-size: 1.5rem;
+    padding: 10px 8px;
+    border: none;
+    outline: none;
+    color: rgb(151, 148, 148);
+}
+
+.Subscribe__btn {
+    cursor: pointer;
+    font-size: 1.4rem;
+    font-weight: 500;
+    padding: 10px 18px;
+    margin-top: 15px;
+    background-color: var(--logo-color);
+}
+
+.Subscribe__btn:hover {
+    background-color: #dbdbdb;
+}
+
+
+

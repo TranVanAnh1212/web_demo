@@ -1,0 +1,35 @@
+:root {
+    --logo-color: #f44336;
+    --while-color: rgb(255, 255, 255);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.grid {
+    width: 1070px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.margin-bottom {
+    margin-bottom: 18px;
+}
+
+.padding-left-right {
+    padding: 0 9px;
+}
+
